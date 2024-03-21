@@ -1,19 +1,17 @@
-body {
-  background-image: url(assets/images/Treble_Clef_without_line\.svg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+#background {
+  position:fixed;
+  width: 40%;
+  margin-left: 2px;
 }
 
 .ms-madi-regular {
-  font-family: "Ms Madi", cursive;
+  font-family: "Ms Madi", "cursive";
   font-weight: 400;
   font-style: normal;
+  font-size: large;
 }
 
-nav,
-.brand-logo {
-  font-size: 4.1rem !important;
-}
+
 .nav-wrapper {
   background-color: antiquewhite;
 }
@@ -33,6 +31,7 @@ nav ul a {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   font-style: normal;
+  position: relative;
 }
 
 .page-footer {
@@ -48,5 +47,24 @@ p {
 }
 
 .responsive-img {
-  position: fixed;
+  padding: 1rem;
 }
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (max-width: 992px) {
+  img {
+    margin-bottom: 4rem;
+  }
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+/* fix music note, align pictures at top */
+/* 
+@media only screen and (min-width: 600px) {
+  #background {
+    visibility: hidden;
+  }
+} */
