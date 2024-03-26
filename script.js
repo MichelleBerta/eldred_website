@@ -17,3 +17,15 @@ new Swiper("#swiper-1", {
   lazyLoading: true,
   loop: true,
 });
+
+
+new Swiper("#swiper-2", {
+  effect: "cube",
+ 
+  pagination: {
+    el: "#swiper-2 .swiper-pagination",
+    clickable: true,
+  },
+  lazyLoading: true,
+  loop: true,
+});

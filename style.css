@@ -5,6 +5,7 @@
   height: 100%;
   width: 100%;
   position: fixed;
+  margin-top: 9rem;
 }
 
 .ms-madi-regular {
@@ -67,7 +68,24 @@ p {
   margin: 0 .375rem;
 }
 
-#swiper-1 .swiper-pagination-bullet-active {
+/* swiper 2 */
+#swiper-2 .swiper-pagination-bullet-active {
+  background-color: darkgray;
+}
+
+#swiper-2 .swiper-pagination {
+  bottom: 2rem;
+}
+
+#swiper-2 .swiper-pagination-bullet {
+  opacity: 1;
+  background-color: white;
+  width: .75rem;
+  height: .75rem;
+  margin: 0 .375rem;
+}
+
+#swiper-2 .swiper-pagination-bullet-active {
   background-color: darkgray;
 }
 
