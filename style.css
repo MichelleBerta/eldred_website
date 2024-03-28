@@ -6,6 +6,7 @@
   width: 100%;
   position: fixed;
   margin-top: 9rem;
+  opacity: 35%;
 }
 
 .ms-madi-regular {
@@ -14,7 +15,6 @@
   font-style: normal;
   font-size: large !important;
 }
-
 
 .nav-wrapper {
   background-color: antiquewhite;
@@ -42,8 +42,6 @@ nav ul a {
   background-color: antiquewhite;
 }
 
-
-
 p {
   line-height: 2.5;
 }
@@ -63,47 +61,38 @@ p {
 #swiper-1 .swiper-pagination-bullet {
   opacity: 1;
   background-color: white;
-  width: .75rem;
-  height: .75rem;
-  margin: 0 .375rem;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin: 0 0.375rem;
+}
+
+#swiper-1 .swiper-pagination-bullet-active {
+  background-color: darkgray;
 }
 
 /* swiper 2 */
-#swiper-2 .swiper-pagination-bullet-active {
-  background-color: darkgray;
+.swiper-slide figure {
+  margin: 0;
+  position: relative;
+  overflow: hidden;
 }
 
-#swiper-2 .swiper-pagination {
-  bottom: 2rem;
+.swiper-slide figcaption {
+  position:absolute;
+  margin-bottom: 0;
+  color: white;
+  font-size: 17px;
+  line-height: 29;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
 }
 
-#swiper-2 .swiper-pagination-bullet {
-  opacity: 1;
-  background-color: white;
-  width: .75rem;
-  height: .75rem;
-  margin: 0 .375rem;
-}
-
-#swiper-2 .swiper-pagination-bullet-active {
-  background-color: darkgray;
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (max-width: 992px) {
-  img {
-    margin-bottom: 4rem;
-  }
-} */
 
 /* Medium devices (landscape tablets, 768px and up) */
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-
-/* fix music note, align pictures at top */
-/* 
-@media only screen and (min-width: 600px) {
-  #background {
-    visibility: hidden;
+@media screen and (max-sideth: 800px) {
+  .swiper-slide img {
+    height: 20rem;
   }
-} */
+}

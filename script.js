@@ -19,13 +19,3 @@ new Swiper("#swiper-1", {
 });
 
 
-new Swiper("#swiper-2", {
-  effect: "cube",
- 
-  pagination: {
-    el: "#swiper-2 .swiper-pagination",
-    clickable: true,
-  },
-  lazyLoading: true,
-  loop: true,
-});
