@@ -1,8 +1,9 @@
 $(document).ready(function () {
   $(".sidenav").sidenav();
   $(".collapsible").collapsible();
-  $(".carousel").carousel();
+  $(".modal").modal();
 });
+
 
 new Swiper("#swiper-1", {
   effect: "fade",

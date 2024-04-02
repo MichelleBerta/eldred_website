@@ -38,6 +38,14 @@ nav ul a {
   position: relative;
 }
 
+.modal-trigger {
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%);
+}
+
 .page-footer {
   background-color: antiquewhite;
 }
@@ -96,3 +104,4 @@ p {
     height: 20rem;
   }
 }
+
